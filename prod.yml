@@ -1,7 +1,7 @@
 version: '2'
 services:
   dockerapp:
-    image: jleetutorial/dockerapp
+    image: mraballard/dockerapp
     ports:
       - "5000:5000"
 
