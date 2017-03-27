@@ -1,7 +1,7 @@
 version: '2'
 services:
   dockerapp:
-    build: .
+    image: jleetutorial/dockerapp
     ports:
       - "5000:5000"
 
